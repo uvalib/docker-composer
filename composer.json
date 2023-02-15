@@ -6,7 +6,7 @@
     "homepage": "https://www.drupal.org/project/drupal",
     "support": {
         "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
-        "chat": "https://www.drupal.org/node/314178"
+        "chat": "https://www.drupal.org/node/31,4178"
     },
     "repositories": [
         {
@@ -29,19 +29,19 @@
         "drupal/color_field": "^2.5",
         "drupal/config_update": "^1.7",
         "drupal/content_sync": "^3.0.x-dev@dev",
-        "drupal/core": "9.3.7",
-        "drupal/core-composer-scaffold": "9.3.7",
-        "drupal/core-project-message": "9.3.7",
-        "drupal/core-recommended": "9.3.7",
+        "drupal/core": "9.3.22",
+        "drupal/core-composer-scaffold": "9.3.22",
+        "drupal/core-project-message": "9.3.22",
+        "drupal/core-recommended": "9.3.22",
         "drupal/custom_search": "^1.0.0-beta8",
         "drupal/d8w3css": "^2.0",
         "drupal/devel": "^4.1",
-        "drush/drush": "^10",
         "drupal/facets": "^2",
         "drupal/features": "^3.12",
         "drupal/fontyourface": "^3.6",
         "drupal/geolocation": "^3.7",
         "drupal/gesso": "^5.0",
+        "drupal/jquery_ui_checkboxradio": "^2.0",
         "drupal/jsonapi_search_api": "^1.0@RC",
         "drupal/layout_builder_component_attributes": "^2.1",
         "drupal/libraries": "^3.0@beta",
@@ -53,7 +53,7 @@
         "drupal/pathauto": "^1.11",
         "drupal/redirect": "^1.8",
         "drupal/rules": "^3.0@alpha",
-        "drupal/save_all_nodes": "^1.0",
+        "drupal/save_all_nodes": "1.x-dev@dev",
         "drupal/scheduler": "^1.4",
         "drupal/scrollup": "^3.0",
         "drupal/search_api_solr": "4.2.9",
@@ -143,6 +143,6 @@
         }
     },
     "require-dev": {
-        "drupal/core-dev": "9.3.7"
+        "drupal/core-dev": "9.3.22"
     }
 }
