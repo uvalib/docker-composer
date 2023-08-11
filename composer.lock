@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ef82440c2954f3c05d3414bbb80754c",
+    "content-hash": "46da8c99551b6b7d905a7e2286f4a11f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4601,6 +4601,58 @@
             }
         },
         {
+            "name": "drupal/mathjax",
+            "version": "4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/mathjax.git",
+                "reference": "4.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/mathjax-4.0.2.zip",
+                "reference": "4.0.2",
+                "shasum": "e92f2f50aa8149e55af8b1f744cad84cf680d91f"
+            },
+            "require": {
+                "drupal/core": "^9.1 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "4.0.2",
+                    "datestamp": "1673381514",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "cilefen",
+                    "homepage": "https://www.drupal.org/user/1850070"
+                },
+                {
+                    "name": "joelpittet",
+                    "homepage": "https://www.drupal.org/user/160302"
+                },
+                {
+                    "name": "julou",
+                    "homepage": "https://www.drupal.org/user/273952"
+                }
+            ],
+            "description": "Javascript-based LaTeX rendering solution for your Drupal website.",
+            "homepage": "https://www.drupal.org/project/mathjax",
+            "support": {
+                "source": "https://git.drupalcode.org/project/mathjax"
+            }
+        },
+        {
             "name": "drupal/migrate_plus",
             "version": "5.3.0",
             "source": {
@@ -4991,6 +5043,78 @@
                 "source": "https://cgit.drupalcode.org/pathauto",
                 "issues": "https://www.drupal.org/project/issues/pathauto",
                 "documentation": "https://www.drupal.org/docs/8/modules/pathauto"
+            }
+        },
+        {
+            "name": "drupal/readonlymode",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/readonlymode.git",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/readonlymode-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "08febabb5b208bedb1cdc001995c8366931adbe2"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "conflict": {
+                "drush/drush": "<10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1678289108",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^10"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Sharique Farooqui",
+                    "homepage": "https://www.drupal.org/u/sharique",
+                    "email": "safknw@gmail.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Fabian Bircher",
+                    "homepage": "https://www.drupal.org/u/bircher",
+                    "email": "opensource@fabianbircher.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "petew",
+                    "homepage": "https://www.drupal.org/user/1009366"
+                },
+                {
+                    "name": "Sharique",
+                    "homepage": "https://www.drupal.org/user/73545"
+                }
+            ],
+            "description": "Read Only Mode provides an alternate to the built in Maintenance Mode in Drupal.",
+            "homepage": "https://www.drupal.org/project/readonlymode",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/readonlymode",
+                "issues": "https://www.drupal.org/project/issues/readonlymode"
             }
         },
         {
@@ -11184,6 +11308,20 @@
             "time": "2021-09-20T19:19:13+00:00"
         },
         {
+            "name": "uvalib/dml",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uvalib/monorepo.git",
+                "reference": "main"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://github.com/uvalib/monorepo/raw/main/packages/drupal_module_loader/dml.tgz"
+            },
+            "type": "drupal-module"
+        },
+        {
             "name": "webflo/drupal-finder",
             "version": "1.2.2",
             "source": {
@@ -15123,7 +15261,8 @@
         "drupal/jsonapi_search_api": 5,
         "drupal/libraries": 10,
         "drupal/rules": 15,
-        "drupal/save_all_nodes": 20
+        "drupal/save_all_nodes": 20,
+        "uvalib/dml": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
