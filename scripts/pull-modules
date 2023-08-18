@@ -3,7 +3,7 @@
 flush=0;
 for r in /opt/drupal/util/docker-composer /opt/drupal/web/themes/uvalib-drupal-theme /opt/drupal/web/modules/custom/* /opt/drupal/web/modules/uvaldap
 do
-   echo checking $r
+   # echo checking $r
    if [ -d $r ]; then	
       cd $r
       git fetch
